@@ -1,0 +1,51 @@
+{
+  "datasets": {
+    "MESocSentiment": {
+      "flag_counts": {
+        "possible_promotion": 1,
+        "repeated_character_run": 29,
+        "short_text": 1370
+      },
+      "flagged": 1400,
+      "scanned": 16968
+    },
+    "expert": {
+      "flag_counts": {
+        "repeated_character_run": 36,
+        "short_text": 10
+      },
+      "flagged": 45,
+      "scanned": 800
+    }
+  },
+  "promotion_phrases": [
+    "buy now",
+    "shop now",
+    "free shipping",
+    "click here",
+    "order now",
+    "limited offer",
+    "discount code",
+    "promo code",
+    "beli sekarang",
+    "penghantaran percuma",
+    "klik sini",
+    "order sekarang",
+    "stok terhad"
+  ],
+  "rules": {
+    "control_character": "Unicode Cc character other than tab, CR or LF.",
+    "empty_text": "Empty after stripping whitespace.",
+    "html_entity": "Named or numeric entity that html.unescape changes.",
+    "html_tag": "Tag-like HTML element.",
+    "invalid_label": "Label outside negative, neutral, positive.",
+    "invisible_format_character": "Unicode Cf character other than joiners U+200C/U+200D.",
+    "no_letters_or_numbers": "No Unicode letters or numbers; may be valid emoji sentiment.",
+    "possible_mojibake": "Common broken UTF-8 sequences; heuristic only.",
+    "possible_promotion": "At least 2 distinct promotion phrases; heuristic only.",
+    "repeated_character_run": "Same non-whitespace character repeated at least 6 times.",
+    "replacement_character": "Contains U+FFFD; possible decoding damage.",
+    "short_text": "Fewer than 3 whitespace-separated units OR fewer than 10 characters.",
+    "url_or_mention_only": "Only URLs/mentions, whitespace and surrounding punctuation."
+  }
+}

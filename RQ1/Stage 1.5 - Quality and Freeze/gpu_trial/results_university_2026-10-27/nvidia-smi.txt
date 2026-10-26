@@ -1,0 +1,25 @@
+Tue Oct 27 01:02:05 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 551.61                 Driver Version: 551.61         CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                     TCC/WDDM  | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 ...  WDDM  |   00000000:01:00.0  On |                  N/A |
+|  0%   41C    P8             19W /  250W |     247MiB /   8192MiB |      1%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A      1792    C+G   C:\Windows\System32\dwm.exe                 N/A      |
+|    0   N/A  N/A      7928    C+G   ...5n1h2txyewy\ShellExperienceHost.exe      N/A      |
+|    0   N/A  N/A      9524    C+G   C:\Windows\explorer.exe                     N/A      |
+|    0   N/A  N/A     10448    C+G   ...ram Files (x86)\AnyDesk\AnyDesk.exe      N/A      |
+|    0   N/A  N/A     10672    C+G   ...2txyewy\StartMenuExperienceHost.exe      N/A      |
+|    0   N/A  N/A     10680    C+G   ...nt.CBS_cw5n1h2txyewy\SearchHost.exe      N/A      |
++-----------------------------------------------------------------------------------------+

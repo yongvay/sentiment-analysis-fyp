@@ -1,0 +1,56 @@
+{
+  "class_counts": {
+    "A": {
+      "negative": 1022,
+      "neutral": 13144,
+      "positive": 2802
+    },
+    "B": {
+      "negative": 345,
+      "neutral": 225,
+      "positive": 229
+    },
+    "C": {
+      "negative": 1367,
+      "neutral": 3031,
+      "positive": 3031
+    }
+  },
+  "input_lock_sha256": "d0e3d3574a37b4cb7482036ffa7c87467d1978721e8fcdccc02594a8a0db940c",
+  "input_sha256": {
+    "Stage 1.1 - MESoc Preparation (Candidate A)/MESocSentiment_Condition_A_v1/condition_a_training.csv": "b87ee0f801bd8deab4afe5d4714ca8cf3bd0c45d0c107c7caa98dd46a0192d76",
+    "Stage 1.1 - MESoc Preparation (Candidate A)/MESocSentiment_Condition_A_v1/mesoc_reserved_test.csv": "11b957b8a777b785e4685dafd8a96240f4b86b115f34931a734fcd9caac9f9d7",
+    "Stage 1.1 - MESoc Preparation (Candidate A)/prepare_mesoc.py": "a0d28cf9fbf11bf29050f0efeb33821f84f45035795ec7204b852516e4aad57a",
+    "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/expert_calibration.csv": "6cf91873220abca6734acdbc5f310a2386b29b2421d7a9ba8ccb63073ed975ee",
+    "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/expert_development.csv": "2cd13c3bc485fc51fe1ee6007c74bdf05dd114e5abf5f94af54dec051c00a143",
+    "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/expert_secondary_test.csv": "fc9ffcae237c8a7b62661aa4bf03840c2f94c9cdca44d08b627818210bf9b6f2",
+    "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/expert_training.csv": "264a891dfdf27df2745bc66dd4c32f8838f9b008364207fdec534c09d2376f0b",
+    "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/partition_manifest.json": "9da57b8324a0772a051611c0a74131914baafb3d1f12ef6c8dc8ac62e8c9e7f0",
+    "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/partition_membership.csv": "5d0dbcb06ca7e7551b6ffd1d8c73e12feca72cea6157b57a8960b647d4b7519a",
+    "Stage 1.3 - Expert-only Preparation (Candidate B)/Expert_Condition_B_v1/condition_b_training.csv": "264a891dfdf27df2745bc66dd4c32f8838f9b008364207fdec534c09d2376f0b",
+    "Stage 1.4 - Combined Preparation (Candidate C)/Combined_Condition_C_v1/condition_c_training.csv": "b6773120e30cc66b8b415e0b055c40114da7f01e79719531ef68fe5c64c1878b",
+    "Stage 1.4 - Combined Preparation (Candidate C)/prepare_candidate_c.py": "81a3b15f4f4e97cb07da8d64b84d789c0c17dc8dba6d70c0f6887d356daa233c"
+  },
+  "outputs_sha256": {
+    "Quality_Report.md": "fce256a01bce781a163a383acc114df122a87117ec36a11df68920561621769f",
+    "condition_a_training.csv": "b87ee0f801bd8deab4afe5d4714ca8cf3bd0c45d0c107c7caa98dd46a0192d76",
+    "condition_b_training.csv": "7ffa4973b8f7ce4dfeec3da9fe61b042188ae6b0f5c67233aa59133cd09cec3c",
+    "condition_c_training.csv": "b472d42e594a0028452f59d6dcdef592fabab1a00f15c52a553c699c082cb56f",
+    "cross_source_duplicate_log.csv": "382cb556241dec336c0b6380880ee85e8a70ed79d3c9ad18350c68aa38409af3",
+    "expert_duplicate_exclusions.csv": "ee5c432622e046aff62fd8e1b26a9e940b084ab703f9d11e622ac6889f7ef8b7",
+    "near_duplicate_review.csv": "5bf519f9e337f37207beda8995c9251da84f60f37ca74f4888c2f548af3b0326",
+    "neutral_sampling_log.csv": "69a110ef02a9bc8b224e4f395593f6b737706a8bd73ed8cbb4cae1b6e973d903",
+    "quality_decisions.csv": "c206100d44f823c12e47f98c395595d611863edab0e5af8983a871f62a2dd05f",
+    "suspicious_text_summary.json": "da939b7efb458529f4c187152b74e10f59ce1ba1f7110e6ddff3fc42f0aa114b",
+    "validation_report.json": "9a8b5ce26c4159c9cccd767a1267d03fbe9da4b0d78871ec2ffe53725df6fcc4"
+  },
+  "rows": {
+    "A": 16968,
+    "B": 799,
+    "C": 7429
+  },
+  "script_sha256": "3d932fcf988b42aa263707c3314383a4eea8e7217ee0389ab0ef1731b539ab04",
+  "seed": 42,
+  "status": "quality policy applied; final freeze pending",
+  "version": "quality_candidates_v2"
+}

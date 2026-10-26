@@ -1,0 +1,6 @@
+{
+  "source": "quality_candidates_v2/condition_b_training.csv",
+  "rows": 799,
+  "sha256": "7ffa4973b8f7ce4dfeec3da9fe61b042188ae6b0f5c67233aa59133cd09cec3c",
+  "purpose": "Training-only hardware trial; protected partitions excluded"
+}

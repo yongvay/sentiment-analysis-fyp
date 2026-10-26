@@ -1,0 +1,14 @@
+{
+  "Stage 1.1 - MESoc Preparation (Candidate A)/MESocSentiment_Condition_A_v1/condition_a_training.csv": "b87ee0f801bd8deab4afe5d4714ca8cf3bd0c45d0c107c7caa98dd46a0192d76",
+  "Stage 1.1 - MESoc Preparation (Candidate A)/MESocSentiment_Condition_A_v1/mesoc_reserved_test.csv": "11b957b8a777b785e4685dafd8a96240f4b86b115f34931a734fcd9caac9f9d7",
+  "Stage 1.1 - MESoc Preparation (Candidate A)/prepare_mesoc.py": "a0d28cf9fbf11bf29050f0efeb33821f84f45035795ec7204b852516e4aad57a",
+  "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/expert_calibration.csv": "6cf91873220abca6734acdbc5f310a2386b29b2421d7a9ba8ccb63073ed975ee",
+  "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/expert_development.csv": "2cd13c3bc485fc51fe1ee6007c74bdf05dd114e5abf5f94af54dec051c00a143",
+  "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/expert_secondary_test.csv": "fc9ffcae237c8a7b62661aa4bf03840c2f94c9cdca44d08b627818210bf9b6f2",
+  "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/expert_training.csv": "264a891dfdf27df2745bc66dd4c32f8838f9b008364207fdec534c09d2376f0b",
+  "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/partition_manifest.json": "9da57b8324a0772a051611c0a74131914baafb3d1f12ef6c8dc8ac62e8c9e7f0",
+  "Stage 1.2 - Prepare and partition the expert corpus/expert_partitions_v1/partition_membership.csv": "5d0dbcb06ca7e7551b6ffd1d8c73e12feca72cea6157b57a8960b647d4b7519a",
+  "Stage 1.3 - Expert-only Preparation (Candidate B)/Expert_Condition_B_v1/condition_b_training.csv": "264a891dfdf27df2745bc66dd4c32f8838f9b008364207fdec534c09d2376f0b",
+  "Stage 1.4 - Combined Preparation (Candidate C)/Combined_Condition_C_v1/condition_c_training.csv": "b6773120e30cc66b8b415e0b055c40114da7f01e79719531ef68fe5c64c1878b",
+  "Stage 1.4 - Combined Preparation (Candidate C)/prepare_candidate_c.py": "81a3b15f4f4e97cb07da8d64b84d789c0c17dc8dba6d70c0f6887d356daa233c"
+}

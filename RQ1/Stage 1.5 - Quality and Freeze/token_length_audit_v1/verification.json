@@ -1,0 +1,8 @@
+{
+  "repeat_run": "all report, CSV and tokenizer snapshot files byte-identical",
+  "saved_hashes": "PASS",
+  "threshold_boundary_checks": "PASS: length equal to limit is not truncated",
+  "summary_reconciliation": "PASS: 25196 candidate entries; candidates overlap",
+  "execution_location": "local laptop CPU; university GPU not used",
+  "runtime_note": "Python 3.13 local; same Transformers 4.57.6/tokenizers 0.22.2 and saved model revision as university. Full runtime recorded in manifest."
+}

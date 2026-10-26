@@ -1,0 +1,6 @@
+{
+  "model_id": "FacebookAI/xlm-roberta-base",
+  "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "tokenizer_class": "XLMRobertaTokenizerFast",
+  "use_fast": true
+}

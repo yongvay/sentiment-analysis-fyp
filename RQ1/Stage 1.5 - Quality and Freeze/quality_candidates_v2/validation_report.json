@@ -1,0 +1,68 @@
+{
+  "A_byte_identical": true,
+  "B_removed_ids": [
+    "39303"
+  ],
+  "C_other_rows_unchanged": true,
+  "C_removed_ids": [
+    "B:39303"
+  ],
+  "all_checks_passed": true,
+  "cross_source_author_separation": "Unavailable: MESoc lacks author IDs",
+  "exact_text_unique": true,
+  "historical_partition_files_unchanged": true,
+  "mesoc_reserved_text_overlaps": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "neutral_target": 3031,
+  "protected_overlaps": {
+    "A/calibration": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    },
+    "A/development": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    },
+    "A/secondary_test": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    },
+    "B/calibration": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    },
+    "B/development": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    },
+    "B/secondary_test": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    },
+    "C/calibration": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    },
+    "C/development": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    },
+    "C/secondary_test": {
+      "expert_author": 0,
+      "expert_id": 0,
+      "text": 0
+    }
+  },
+  "shared_scanner": true
+}
