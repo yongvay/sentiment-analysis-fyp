@@ -1,0 +1,31 @@
+{
+  "source_hashes_match_stage12": true,
+  "fixed_training_membership_matches": true,
+  "all_required_values_present": true,
+  "all_code_mixed": true,
+  "unique_post_ids": true,
+  "protected_partition_overlaps": {
+    "development": {
+      "post_id": 0,
+      "author": 0,
+      "trimmed_text": 0
+    },
+    "calibration": {
+      "post_id": 0,
+      "author": 0,
+      "trimmed_text": 0
+    },
+    "secondary_test": {
+      "post_id": 0,
+      "author": 0,
+      "trimmed_text": 0
+    }
+  },
+  "retained_duplicate_text_id_groups": [
+    [
+      "37432",
+      "39303"
+    ]
+  ],
+  "output_byte_identical_to_training_source": true
+}

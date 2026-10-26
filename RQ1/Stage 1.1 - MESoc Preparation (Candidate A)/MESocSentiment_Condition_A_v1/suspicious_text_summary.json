@@ -1,0 +1,46 @@
+{
+  "scanned_rows": 19714,
+  "flagged_rows": 1410,
+  "flagged_candidate_rows": 1400,
+  "flag_counts": {
+    "short_text": 1378,
+    "repeated_character_run": 31,
+    "possible_promotion": 1
+  },
+  "candidate_flag_counts": {
+    "short_text": 1370,
+    "repeated_character_run": 29,
+    "possible_promotion": 1
+  },
+  "rules": {
+    "empty_text": "Empty after stripping whitespace.",
+    "invalid_label": "Label outside negative, neutral, positive.",
+    "replacement_character": "Contains U+FFFD; possible decoding damage.",
+    "control_character": "Unicode Cc character other than tab, CR or LF.",
+    "invisible_format_character": "Unicode Cf character other than joiners U+200C/U+200D.",
+    "possible_mojibake": "Common broken UTF-8 sequences; heuristic only.",
+    "html_tag": "Tag-like HTML element.",
+    "html_entity": "Named or numeric entity that html.unescape changes.",
+    "url_or_mention_only": "Only URLs/mentions, whitespace and surrounding punctuation.",
+    "short_text": "Fewer than 3 whitespace-separated units OR fewer than 10 characters.",
+    "no_letters_or_numbers": "No Unicode letters or numbers; may be valid emoji sentiment.",
+    "repeated_character_run": "Same non-whitespace character repeated at least 6 times.",
+    "possible_promotion": "At least 2 distinct promotion phrases; heuristic only."
+  },
+  "promotion_phrases": [
+    "buy now",
+    "shop now",
+    "free shipping",
+    "click here",
+    "order now",
+    "limited offer",
+    "discount code",
+    "promo code",
+    "beli sekarang",
+    "penghantaran percuma",
+    "klik sini",
+    "order sekarang",
+    "stok terhad"
+  ],
+  "policy": "Flag only; no additional removal or text modification. Flags are not confirmed errors."
+}

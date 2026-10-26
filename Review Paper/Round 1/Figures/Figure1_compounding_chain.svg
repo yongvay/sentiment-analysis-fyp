@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="344" viewBox="0 0 900 344" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+    </marker>
+    <style>
+      .bx{fill:#f5f5f3;stroke:#1a1a1a;stroke-width:1.4}
+      .bxc{fill:#e4e4e0;stroke:#1a1a1a;stroke-width:1.4}
+      .n{font-size:12.5px;font-weight:bold;fill:#1a1a1a}
+      .t{font-size:11px;fill:#1a1a1a}
+      .lk{font-size:10.5px;font-style:italic;fill:#3a3a3a}
+      .ed{stroke:#1a1a1a;stroke-width:1.5;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+
+  <rect class="bx"  x="10"  y="24" width="196" height="94" rx="3"/>
+  <text class="n" x="108" y="48" text-anchor="middle">Linguistic structure</text>
+  <text class="t" x="108" y="68" text-anchor="middle">Switching inside the clause,</text>
+  <text class="t" x="108" y="84" text-anchor="middle">affect carried by particles,</text>
+  <text class="t" x="108" y="100" text-anchor="middle">phonetic spelling</text>
+
+  <rect class="bx"  x="236" y="24" width="196" height="94" rx="3"/>
+  <text class="n" x="334" y="48" text-anchor="middle">Systematic disagreement</text>
+  <text class="t" x="334" y="68" text-anchor="middle">Readings recur on the same</text>
+  <text class="t" x="334" y="84" text-anchor="middle">construction, so more</text>
+  <text class="t" x="334" y="100" text-anchor="middle">annotators reproduce it</text>
+
+  <rect class="bxc" x="462" y="24" width="196" height="94" rx="3"/>
+  <text class="n" x="560" y="48" text-anchor="middle">Automation</text>
+  <text class="t" x="560" y="68" text-anchor="middle">Fluent bilingual annotation</text>
+  <text class="t" x="560" y="84" text-anchor="middle">is scarce and costly, so</text>
+  <text class="t" x="560" y="100" text-anchor="middle">labelling is automated</text>
+
+  <rect class="bxc" x="688" y="24" width="196" height="94" rx="3"/>
+  <text class="n" x="786" y="48" text-anchor="middle">Shared blind spot</text>
+  <text class="t" x="786" y="68" text-anchor="middle">Available tools cover neither</text>
+  <text class="t" x="786" y="84" text-anchor="middle">Malay nor Manglish, so voting</text>
+  <text class="t" x="786" y="100" text-anchor="middle">ratifies one error</text>
+
+  <rect class="bxc" x="688" y="216" width="196" height="94" rx="3"/>
+  <text class="n" x="786" y="240" text-anchor="middle">Extreme class skew</text>
+  <text class="t" x="786" y="260" text-anchor="middle">False neutrals accumulate;</text>
+  <text class="t" x="786" y="276" text-anchor="middle">the largest corpus reaches</text>
+  <text class="t" x="786" y="292" text-anchor="middle">78.23% neutral</text>
+
+  <rect class="bxc" x="462" y="216" width="196" height="94" rx="3"/>
+  <text class="n" x="560" y="240" text-anchor="middle" style="font-size:11.4px">Reliability hard to establish</text>
+  <text class="t" x="560" y="260" text-anchor="middle">Chance agreement rises, so</text>
+  <text class="t" x="560" y="276" text-anchor="middle">the coefficient becomes</text>
+  <text class="t" x="560" y="292" text-anchor="middle">difficult to interpret</text>
+
+  <path class="ed" d="M206,71 L233,71"/>
+  <path class="ed" d="M432,71 L459,71"/>
+  <path class="ed" d="M658,71 L685,71"/>
+  <path class="ed" d="M786,118 L786,213"/>
+  <path class="ed" d="M688,263 L661,263"/>
+  <path class="ed" d="M560,216 L560,121"/>
+
+  <text class="lk" x="219" y="63" text-anchor="middle">1</text>
+  <text class="lk" x="445" y="63" text-anchor="middle">2</text>
+  <text class="lk" x="671" y="63" text-anchor="middle">3</text>
+  <text class="lk" x="797" y="170">4</text>
+  <text class="lk" x="674" y="253" text-anchor="middle">5</text>
+  <text class="lk" x="548" y="170" text-anchor="end">6</text>
+
+  <text class="lk" x="570" y="164">Corpora train the annotators</text>
+  <text class="lk" x="570" y="179">that build the next corpus</text>
+
+  <text class="lk" x="10" y="228">Links 1 and 2 describe the linguistic condition and are given.</text>
+  <text class="lk" x="10" y="248">Links 3 to 6 form a closed cycle: each pass through it entrenches</text>
+  <text class="lk" x="10" y="263">the shared blind spot and makes it less visible.</text>
+  <text class="lk" x="10" y="288">Deleting the contested items at link 4 raises measured agreement</text>
+  <text class="lk" x="10" y="303">while worsening the skew, so the cycle is self-reinforcing.</text>
+</svg>

@@ -1,0 +1,219 @@
+{
+  "source": "C:\\Users\\Lenovo\\Desktop\\Sentiment Analysis FYP\\RQ1\\Training Datasets\\Sentiment MC Dataset\\annotated_bicodemix_publicsa_v2.csv",
+  "source_sha256": "fb38bcd0b37b85f4d3ad19521c3e75295108e25ef6a5108bd24c45045e58cd85",
+  "author_rule": "Trim outer whitespace; preserve case; blank/---/nan/none/null/n/a treated as unknown, not a shared author.",
+  "eligibility_rule": "lang_id=cm and majority_sent in positive/negative/neutral; provisional, no rows deleted.",
+  "all_rows": {
+    "posts": 10000,
+    "known_authors": 7880,
+    "missing_author_posts": 0,
+    "posts_per_author_histogram": {
+      "1": 6716,
+      "2": 760,
+      "3": 226,
+      "4": 75,
+      "5": 37,
+      "6": 24,
+      "7": 7,
+      "8": 9,
+      "9": 7,
+      "10": 5,
+      "11": 3,
+      "12": 3,
+      "13": 1,
+      "14": 2,
+      "15": 1,
+      "17": 1,
+      "18": 1,
+      "28": 1,
+      "35": 1
+    },
+    "mean_posts_per_author": 1.2690355329949239,
+    "median_posts_per_author": 1.0,
+    "max_posts_per_author": 35,
+    "top_10_author_posts": 178,
+    "sentiments": {
+      "neutral": 2569,
+      "negative": 4197,
+      "positive": 3072,
+      "": 162
+    },
+    "languages": {
+      "my": 6671,
+      "en": 1009,
+      "cm": 2320
+    },
+    "missing_id_posts": 0,
+    "duplicate_id_excess_rows": 0,
+    "empty_text_posts": 0,
+    "duplicate_trimmed_text_excess_rows": 9
+  },
+  "all_code_mixed": {
+    "posts": 2320,
+    "known_authors": 1979,
+    "missing_author_posts": 0,
+    "posts_per_author_histogram": {
+      "1": 1777,
+      "2": 139,
+      "3": 32,
+      "4": 14,
+      "5": 8,
+      "6": 4,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "11": 1,
+      "14": 1
+    },
+    "mean_posts_per_author": 1.1723092470944922,
+    "median_posts_per_author": 1,
+    "max_posts_per_author": 14,
+    "top_10_author_posts": 78,
+    "sentiments": {
+      "positive": 653,
+      "negative": 988,
+      "neutral": 640,
+      "": 39
+    },
+    "languages": {
+      "cm": 2320
+    },
+    "missing_id_posts": 0,
+    "duplicate_id_excess_rows": 0,
+    "empty_text_posts": 0,
+    "duplicate_trimmed_text_excess_rows": 1
+  },
+  "labelled_code_mixed": {
+    "posts": 2281,
+    "known_authors": 1951,
+    "missing_author_posts": 0,
+    "posts_per_author_histogram": {
+      "1": 1756,
+      "2": 132,
+      "3": 33,
+      "4": 13,
+      "5": 8,
+      "6": 4,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "11": 2
+    },
+    "mean_posts_per_author": 1.169144028703229,
+    "median_posts_per_author": 1,
+    "max_posts_per_author": 11,
+    "top_10_author_posts": 75,
+    "sentiments": {
+      "positive": 653,
+      "negative": 988,
+      "neutral": 640
+    },
+    "languages": {
+      "cm": 2281
+    },
+    "missing_id_posts": 0,
+    "duplicate_id_excess_rows": 0,
+    "empty_text_posts": 0,
+    "duplicate_trimmed_text_excess_rows": 1
+  },
+  "code_mixed_without_valid_sentiment": 39,
+  "cm_authors_also_in_labelled_monolingual": 415,
+  "labelled_monolingual_posts_by_shared_authors": 811,
+  "singleton_cm_authors_by_sentiment": {
+    "neutral": 515,
+    "negative": 731,
+    "positive": 510
+  },
+  "top_10_labelled_cm_authors": [
+    {
+      "author_key": "d7a5b0cf-447",
+      "all_posts": 18,
+      "labelled_cm_posts": 11,
+      "labelled_monolingual_posts": 4,
+      "negative": 7,
+      "neutral": 1,
+      "positive": 3
+    },
+    {
+      "author_key": "5117b427-b3e",
+      "all_posts": 12,
+      "labelled_cm_posts": 11,
+      "labelled_monolingual_posts": 1,
+      "negative": 10,
+      "neutral": 1,
+      "positive": 0
+    },
+    {
+      "author_key": "4e298ae4-c62",
+      "all_posts": 9,
+      "labelled_cm_posts": 9,
+      "labelled_monolingual_posts": 0,
+      "negative": 4,
+      "neutral": 3,
+      "positive": 2
+    },
+    {
+      "author_key": "724e917c-856",
+      "all_posts": 11,
+      "labelled_cm_posts": 8,
+      "labelled_monolingual_posts": 3,
+      "negative": 2,
+      "neutral": 3,
+      "positive": 3
+    },
+    {
+      "author_key": "94585383-ac9",
+      "all_posts": 9,
+      "labelled_cm_posts": 7,
+      "labelled_monolingual_posts": 2,
+      "negative": 6,
+      "neutral": 1,
+      "positive": 0
+    },
+    {
+      "author_key": "3d5d8253-d32",
+      "all_posts": 11,
+      "labelled_cm_posts": 6,
+      "labelled_monolingual_posts": 5,
+      "negative": 4,
+      "neutral": 1,
+      "positive": 1
+    },
+    {
+      "author_key": "4cdf2813-3a5",
+      "all_posts": 10,
+      "labelled_cm_posts": 6,
+      "labelled_monolingual_posts": 4,
+      "negative": 3,
+      "neutral": 0,
+      "positive": 3
+    },
+    {
+      "author_key": "fc867655-e4b",
+      "all_posts": 10,
+      "labelled_cm_posts": 6,
+      "labelled_monolingual_posts": 4,
+      "negative": 5,
+      "neutral": 1,
+      "positive": 0
+    },
+    {
+      "author_key": "ed8e017f-17a",
+      "all_posts": 9,
+      "labelled_cm_posts": 6,
+      "labelled_monolingual_posts": 3,
+      "negative": 3,
+      "neutral": 1,
+      "positive": 2
+    },
+    {
+      "author_key": "16e8287e-6e4",
+      "all_posts": 28,
+      "labelled_cm_posts": 5,
+      "labelled_monolingual_posts": 23,
+      "negative": 5,
+      "neutral": 0,
+      "positive": 0
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "status": "CANDIDATE: suspicious-text assessment, expert overlap and training freeze pending",
+  "input_rows": 19714,
+  "supplied_train_rows": 10863,
+  "supplied_test_rows": 2000,
+  "candidate_rows": 16968,
+  "class_counts": {
+    "positive": 2802,
+    "neutral": 13144,
+    "negative": 1022
+  },
+  "exclusions": {
+    "reserved_supplied_test_text": 2000,
+    "flagged_near_duplicate_user_policy": 746
+  },
+  "whitespace_trimmed_rows": 0,
+  "duplicate_review_pairs": 582,
+  "near_duplicate_excluded_rows": 746,
+  "suspicious_text": {
+    "scanned_rows": 19714,
+    "flagged_rows": 1410,
+    "flagged_candidate_rows": 1400,
+    "flag_counts": {
+      "short_text": 1378,
+      "repeated_character_run": 31,
+      "possible_promotion": 1
+    },
+    "candidate_flag_counts": {
+      "short_text": 1370,
+      "repeated_character_run": 29,
+      "possible_promotion": 1
+    },
+    "rules": {
+      "empty_text": "Empty after stripping whitespace.",
+      "invalid_label": "Label outside negative, neutral, positive.",
+      "replacement_character": "Contains U+FFFD; possible decoding damage.",
+      "control_character": "Unicode Cc character other than tab, CR or LF.",
+      "invisible_format_character": "Unicode Cf character other than joiners U+200C/U+200D.",
+      "possible_mojibake": "Common broken UTF-8 sequences; heuristic only.",
+      "html_tag": "Tag-like HTML element.",
+      "html_entity": "Named or numeric entity that html.unescape changes.",
+      "url_or_mention_only": "Only URLs/mentions, whitespace and surrounding punctuation.",
+      "short_text": "Fewer than 3 whitespace-separated units OR fewer than 10 characters.",
+      "no_letters_or_numbers": "No Unicode letters or numbers; may be valid emoji sentiment.",
+      "repeated_character_run": "Same non-whitespace character repeated at least 6 times.",
+      "possible_promotion": "At least 2 distinct promotion phrases; heuristic only."
+    },
+    "promotion_phrases": [
+      "buy now",
+      "shop now",
+      "free shipping",
+      "click here",
+      "order now",
+      "limited offer",
+      "discount code",
+      "promo code",
+      "beli sekarang",
+      "penghantaran percuma",
+      "klik sini",
+      "order sekarang",
+      "stok terhad"
+    ],
+    "policy": "Flag only; no additional removal or text modification. Flags are not confirmed errors."
+  },
+  "source_sha256": {
+    "MESocSentiment Corpus.csv": "67c6daa5500772e995d346b43a4432bfecc91cce602484add97769c93c65cf8d",
+    "Test Set.csv": "709acf88a1faab1d3455de91558df0f83336f085fc0f7fa4f1c3de9c8f07330b",
+    "Train Set.csv": "6eaad8191a5454cc408dda6d26a44ab3e8f6fa31c642c2131d3ad3195a76ca56"
+  },
+  "script_sha256": "a0d28cf9fbf11bf29050f0efeb33821f84f45035795ec7204b852516e4aad57a",
+  "label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "checks": "row reconciliation, unique IDs/text, no prepared exact audit overlap, valid labels, originals unchanged: PASS",
+  "rules": {
+    "cleaning": "strip leading/trailing whitespace only",
+    "balancing": "none",
+    "random_split": "none; expert development set will be used",
+    "supplied_train": "not used for training",
+    "fuzzy_screen": "NFKC/casefold/whitespace equivalence plus adjacent sorted pairs with common first 12 characters, minimum 30 chars and SequenceMatcher >=0.95; not exhaustive",
+    "near_duplicate_policy": "User-selected exclusion of every candidate endpoint in original flagged pairs, regardless of label; preserve reserved records; no iterative rescreening",
+    "suspicious_text_policy": "Flag only; preserve text and do not automatically exclude suspicious rows"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "all_800_expert_rows_retained": true,
+  "all_checks_passed": true,
+  "cross_source_exact_pairs": 0,
+  "input_hashes_verified": true,
+  "limitations": [
+    "MESoc author identity is unavailable; cross-source author disjointness cannot be verified.",
+    "Near-duplicate scan is heuristic, not exhaustive.",
+    "Quality review, full overlap checks, token lengths and final freeze remain in Stage 1.5."
+  ],
+  "near_duplicate_flags": 0,
+  "neutral_target_met": true,
+  "protected_overlaps": {
+    "calibration": {
+      "expert_author_overlap": 0,
+      "expert_id_overlap": 0,
+      "trimmed_text_overlap": 0
+    },
+    "development": {
+      "expert_author_overlap": 0,
+      "expert_id_overlap": 0,
+      "trimmed_text_overlap": 0
+    },
+    "secondary_test": {
+      "expert_author_overlap": 0,
+      "expert_id_overlap": 0,
+      "trimmed_text_overlap": 0
+    }
+  },
+  "retained_internal_duplicate_groups": [
+    [
+      "B:37432",
+      "B:39303"
+    ]
+  ],
+  "unique_namespaced_ids": true
+}

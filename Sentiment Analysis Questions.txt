@@ -1,0 +1,67 @@
+markitdown "C:\Users\Lenovo\Desktop\Sentiment Analysis FYP\C1\C1.pdf" > "C:\Users\Lenovo\Desktop\Sentiment Analysis FYP\C1\C1.md"
+
+***Update C1 and C2 to mention there are 2 LLMs and 1 XLM*** (29 July 2026)
+***Wait for Dr. Ho reply on my hybrid pipeline*** (29 July 2026)
+***After getting replied, ask Dr. Ho whether do I need to specify the LLMs*** (29 July 2026)
+
+
+
+Q1 : Do you mean that you recommend shifting from cyberbullying detection to sentiment analysis dataset creation/annotation ?
+
+Q2 : Do you mean using datasets from UNIMAS or UMS to fine-tune a model like XLM-RoBERTa.
+
+The workflow is likely:
+1. Acquire existing code-mixed sentiment datasets (from UNIMAS/UMS).
+2. Fine-tune a pre-trained transformer model (like $XLM-R$) on that data.
+3. Auto-Annotate: Use that fine-tuned model to predict labels on the "huge, unlabeled Manglish dataset" he shared.
+4. Validate: Manually verify a portion of those labels to ensure accuracy.
+
+Q3 : So ultimately the expected output of my FYP is to train a model that have high accuracy in classifying code-mixed sentiment analysis ? 
+
+So the plan is to use the UNIMAS/UMS datasets to fine-tune a model (like XLM-R) which will then act as an automated annotator for the larger Manglish dataset, effectively creating a new labeled corpus for the community?
+
+Step	                               Action						                               Category
+
+1	Get existing small code-mixed datasets (UNIMAS/UMS)                                                    Data Sourcing 
+
+2       Fine-tune XLM-RoBERTa on that data                                                                     Detection
+
+3       Use the model to label the huge unlabeled Manglish dataset                                             Dataset Creation
+
+4       Apply Explainability techniques (LIME/SHAP) to see why it labeled those Manglish sentences that way    Core Research (FYP Focus) 
+
+Q4 : Dr. Ho, just to clarify, is the goal for me to produce a newly labeled version of that Manglish dataset as my primary contribution, while using the UNIMAS/UMS data as the initial training source ?
+
+
+
+Research Questions
+RQ1: 
+How can an automated multi-model consensus (voting-based) annotation pipeline produce a high-fidelity sentiment-labeled dataset for code-mixed English–Malay Malaysian social media text, and how closely do its labels agree with human annotation?
+
+* Consider 3 models (Voting)
+* Try to use LLM instead of transformer model
+* Check quality of annotation (compare human and machine)
+
+(https://akademiabaru.com/submit/index.php/ard/article/view/5640/5354) 
+(Limitations: The authors noted that the dataset is imbalanced and skewed toward neutral sentiments, which could lead to biased models. They also acknowledged that automated tools occasionally produce "false" labels compared to manual checks)
+
+
+RQ2: To what extent do multilingual transformer-based models (e.g., XLM-RoBERTa) outperform monolingual baselines in classifying sentiment in highly code-mixed Malaysian (Manglish) social media text?
+
+(https://aclanthology.org/2023.emnlp-main.987.pdf)
+(This paper establishes that popular transformer models like BERT and RoBERTa perform significantly better than monolingual or non-transformer baselines in code-mixed Hinglish and Benglish tasks, especially when fine-tuned with phonetic features.)
+
+One methodological watch-out worth flagging now (it affects whether RQ2 is cleanly answerable): XLM-RoBERTa appears in both phases — as a voter/annotator in RQ1 and as a classifier under evaluation in RQ2. If you train and test RQ2's XLM-RoBERTa on the same auto-labeled data it helped annotate, the result is partly circular (a model will naturally agree with labels a similar model produced). The fix is to make sure RQ2's evaluation runs on the human-validated gold-standard test set, not the machine-labeled portion. Keep that distinction explicit in your methodology and the circularity objection disappears.
+
+
+
+
+
+
+
+RQ3: How can the decision-making process of sentiment detection models be made explainable when processing linguistic features (slang, particles, and syntax) unique to Bahasa Rojak? 
+(https://aclanthology.org/2023.emnlp-main.987.pdf)
+(This paper directly applies the SHAP technique to explain how transformer models make decisions on code-mixed text. It extracts the specific terms (regional words and spelling variations) responsible for final predictions, which is exactly what I plan to do for Bahasa Rojak.)
+
+* Compare LIME and SHAP (Find sample coursework)
+

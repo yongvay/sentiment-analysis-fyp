@@ -1,0 +1,52 @@
+# Local review and generated output folders
+/.codex-review/
+/.review-temp/
+/outputs/
+
+# Archived resources and original datasets
+/Archived/
+/RQ1/Target Dataset/
+/RQ1/Training Datasets/
+
+# Dataset files, including derived copies and text review logs
+# Keep these backed up separately
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+
+# Downloaded archives
+*.zip
+*.7z
+*.rar
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Model weights and checkpoints
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+pytorch_model*.bin
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Office temporary files
+~$*
+~WRL*.tmp
+*.tmp
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
